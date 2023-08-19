@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navv">
+      <div class="navbar">
+        <div class="lib">
+          <a class="libsys" href="#">Library System</a>
+        </div>
+        <div class="log">
+          <a class="left" href="#onclik"><p>Books</p></a>
+          <a class="left" href="#onclik2"><p>Register</p></a>
+          <p class="left1">Contact Us</p>
+          <p class="left1">Logout</p>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="book">
+        <h1 class="books" id="onclik">Books</h1>
+        <table class="book-mar">
+          <thead>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th class="auth">Author</th>
+            <th class="auth">Genre</th>
+            <th>Availability</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <a class="blink" href="#">Book Title 1</a>
+                <table class="table2">
+                  <tr>
+                    <td class="pub1 pub">Publication Date: 2000</td>
+                  </tr>
+                  <tr>
+                    <td class="pub1">Page Count: 250</td>
+                  </tr>
+                  <tr>
+                    <td class="isb">ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td class="auth1">Author Name 1</td>
+              <td class="auth1">Genre 1</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td class="bk2">2</td>
+              <td class="bk2">
+                <a class="blink" href="#">Book Title 2</a>
+                <table class="table2">
+                  <tr>
+                    <td class="pub2">Publication Date: 2005</td>
+                  </tr>
+                  <tr>
+                    <td class="page2">Page Count: 300</td>
+                  </tr>
+                  <tr>
+                    <td class="page2 isb2">ISBN: 123-4567890456</td>
+                  </tr>
+                </table>
+              </td>
+              <td class="auth2">Author Name 2</td>
+              <td class="auth2">Genre 2</td>
+              <td class="bk2">Not Available</td>
+            </tr>
+            <tr>
+              <td class="bk3">3</td>
+              <td class="bk3">
+                <a class="blink" href="#">Book Title 3</a>
+                <table class="table2">
+                  <tr>
+                    <td class="pub3">Publication Date: 2010</td>
+                  </tr>
+                  <tr>
+                    <td class="pub3">Page Count: 350</td>
+                  </tr>
+                  <tr>
+                    <td class="pub3">ISBN: 123-4567890789</td>
+                  </tr>
+                </table>
+              </td>
+              <td class="auth3">Author Name 3</td>
+              <td class="auth3">Genre 3</td>
+              <td class="bk3">Available</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="onclik2">
+      <div class="register">
+        <h1 class="reg">Register</h1>
+        <div class="registration-form">
+          <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required /><br />
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required /><br />
+
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" required /><br />
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="5" max="100" required /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required /><br />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required /><br />
+
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" id="cpassword" required /><br />
+
+            <button type="submit">Register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
